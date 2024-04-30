@@ -13,28 +13,29 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Rakibul Islam and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2021 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Hello! My name is <span className="text-textGreen">Rakibul Islam </span> and I enjoy creating things that
+            live on the internet.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
+            With a solid background in {" "}
             <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
+              Computer Science, {" "}
             </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
-            <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
-            </span>
+            I approach every challenge as an opportunity to learn and grow. I'm dedicated to <span className="text-textGreen">solving problems </span> 
+            and continuously expanding my knowledge, prioritizing a lifelong learning mindset in everything I do.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
+            As a Software Engineer, 
+            <span className="text-bold">I firmly believe in the power of collaboration and teamwork to create innovative solutions. </span> 
+            I thrive in environments where I can apply my skills to solve complex problems and make a positive impact.
+          </p>
+            <span className="text-textGreen">
+              I thoroughly enjoy sharing my knowledge and engaging in insightful discussions with like-minded individuals. 
+              Let's exchange ideas and learn from each other!
+            </span>
+          <p>
+            Programming languages and frameworks are simply tools in my arsenal. The true challenge lies in critical thinking and arriving at elegant solutions. 
+            Let's tackle problems together and make a difference in the world of technology.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
@@ -42,13 +43,13 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript (ES6+)
+              Python
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Next.js
+              Django
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -60,31 +61,55 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Node.js
+              Django REST Framework
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              TypeScript
+              FastAPI
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Express.js
+              GraphQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              MongoDB
+              Wagtail CMS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwindcss
+              Tailwind CSS
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Web Scraping
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Redis
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Multi-tenant
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+                Test-Driven Development
             </li>
           </ul>
         </div>

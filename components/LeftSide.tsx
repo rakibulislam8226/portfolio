@@ -1,10 +1,9 @@
 import { TbBrandGithub } from "react-icons/tb";
-import { SlSocialYoutube } from "react-icons/sl";
 import {
   SlSocialLinkedin,
-  SlSocialFacebook,
-  SlSocialInstagram,
+  SlSocialYoutube,
 } from "react-icons/sl";
+import { MdEmail } from "react-icons/md";
 
 const LeftSide = () => {
   return (
@@ -31,14 +30,9 @@ const LeftSide = () => {
             <SlSocialLinkedin />
           </span>
         </a>
-        <a href="https://www.facebook.com/rakib9065/" target="_blank">
+        <a href="mailto:rakibulislam8226@gmail.com" target="_blank">
           <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialFacebook />
-          </span>
-        </a>
-        <a href="#" target="_blank">
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
-            <SlSocialInstagram />
+            <MdEmail />
           </span>
         </a>
       </div>
