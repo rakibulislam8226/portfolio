@@ -17,7 +17,7 @@ const About = () => {
             live on the internet.
           </p>
           <p>
-            With a solid background in {" "}
+            I have solid background in {" "}
             <span className="text-textGreen">
               Computer Science, {" "}
             </span>
@@ -49,13 +49,19 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
+              React
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
               Django
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              React
+              Tailwind CSS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -67,25 +73,26 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              FastAPI
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
               GraphQL
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Wagtail CMS
+              Flask
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwind CSS
+              FastAPI
+            </li>
+            
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Wagtail CMS
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -110,6 +117,12 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
                 Test-Driven Development
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+                Chart.js
             </li>
           </ul>
         </div>
