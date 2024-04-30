@@ -21,7 +21,7 @@ const About = () => {
             <span className="text-textGreen">
               Computer Science, {" "}
             </span>
-            I approach every challenge as an opportunity to learn and grow. I'm dedicated to <span className="text-textGreen">solving problems </span> 
+            I approach every challenge as an opportunity to learn and grow. I am dedicated to <span className="text-textGreen">solving problems </span> 
             and continuously expanding my knowledge, prioritizing a lifelong learning mindset in everything I do.
           </p>
           <p>
@@ -31,11 +31,11 @@ const About = () => {
           </p>
             <span className="text-textGreen">
               I thoroughly enjoy sharing my knowledge and engaging in insightful discussions with like-minded individuals. 
-              Let's exchange ideas and learn from each other!
+              Lets exchange ideas and learn from each other!
             </span>
           <p>
             Programming languages and frameworks are simply tools in my arsenal. The true challenge lies in critical thinking and arriving at elegant solutions. 
-            Let's tackle problems together and make a difference in the world of technology.
+            Lets tackle problems together and make a difference in the world of technology.
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
