@@ -221,7 +221,7 @@ const Projects = () => {
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
               This is <span className="text-textGreen"> a project details platform </span> where an employee of an organization can view their own
-              products with information for their clients. It's mainly managed for internal products by checking the products' health.       
+              products with information for their clients. Its mainly managed for internal products by checking the products health.       
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
               <li>Django</li>
