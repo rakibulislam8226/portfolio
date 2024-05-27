@@ -19,7 +19,7 @@ const Navbar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     setShow(false);
-    const href = e.currentTarget.href;
+    const {href} = e.currentTarget;
     const targetId = href.replace(/.*\#/, "");
     const elem = document.getElementById(targetId);
     elem?.scrollIntoView({

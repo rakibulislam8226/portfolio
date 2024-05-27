@@ -1,4 +1,4 @@
-import { beeboxImg, dsiImg, SupplersImg } from "@/public/assets";
+import { beeboxImg, dsiImg, SupplersImg, tripleChoiceImg } from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
@@ -196,6 +196,66 @@ const Projects = () => {
           </div>
         </div>
         {/* ============ project Three End here ================== */}
+        {/* ============ project Four Start here ================ */}
+        <div className="flex flex-col xl:flex-row-reverse gap-6">
+          <a
+            className="w-full xl:w-1/2 h-auto relative group"
+            href="https://triplechoice.com/"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={tripleChoiceImg}
+                alt="tripleChoiceImg"
+              />
+              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+            <div>
+              <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-2xl font-bold">TripleChoice</h3>
+            </div>
+            <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md xl:-mr-16">
+              This is <span className="text-textGreen"> a project details platform </span> where an employee of an organization can view their own
+              products with information for their clients. It's mainly managed for internal products by checking the products' health.       
+            </p>
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+              <li>Django</li>
+              <li>Django REST Framework</li>
+              <li>MySQL</li>
+              <li>HTML</li>
+              <li>Bootstrap</li>
+            </ul>
+            <div className="text-2xl flex gap-4">
+              <a
+                className="hover:text-textGreen duration-300"
+                href="#"
+                target="_blank"
+              >
+                <TbBrandGithub />
+              </a>
+              <a
+                className="hover:text-textGreen duration-300"
+                href="#"
+                target="_blank"
+              >
+                <AiOutlineYoutube />
+              </a>
+              <a
+                className="hover:text-textGreen duration-300"
+                href="https://triplechoice.com/"
+                target="_blank"
+              >
+                <RxOpenInNewWindow />
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* ============ project Four End here ================== */}
       </div>
     </section>
   );
