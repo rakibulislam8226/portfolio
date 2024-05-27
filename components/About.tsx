@@ -2,6 +2,9 @@ import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
+import { FaFlask, FaPython, FaReact, FaRedditSquare } from "react-icons/fa";
+import { TbBrandDjango, TbBrandGraphql, TbBrandTailwind, TbFlask, TbFlask2 } from "react-icons/tb";
+import { SlChart } from "react-icons/sl";
 
 const About = () => {
   return (
@@ -37,29 +40,31 @@ const About = () => {
             Programming languages and frameworks are simply tools in my arsenal. The true challenge lies in critical thinking and arriving at elegant solutions. 
             Lets tackle problems together and make a difference in the world of technology.
           </p>
+
+          {/* skills sections  */}
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <FaPython />
               </span>
               Python
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <FaReact />
               </span>
               React
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <TbBrandDjango />
               </span>
               Django
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <TbBrandTailwind />
               </span>
               Tailwind CSS
             </li>
@@ -71,7 +76,7 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <TbBrandGraphql />
               </span>
               GraphQL
             </li>
@@ -120,12 +125,14 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <SlChart />
               </span>
                 Chart.js
             </li>
           </ul>
         </div>
+
+        {/* profile image section  */}
         <div className="w-full lgl:w-1/3 h-80 relative group">
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">

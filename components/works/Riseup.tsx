@@ -34,7 +34,13 @@ const Riseup = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Collaborated on the development of a comprehensive EMS solution.
+          Collaborated on developing a comprehensive EMS solution integrated with an IoT.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Maintained delivering high-quality code and adhering to best practices for software development with Test Driven Development (TDD).
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">

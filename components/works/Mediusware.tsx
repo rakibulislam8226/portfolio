@@ -14,20 +14,20 @@ const Mediusware = () => {
         <span className="text-textGreen tracking-wide">@Mediusware</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Aug 2022 - Jun 2023
+        Aug 2022 - Jan 2024
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Implemented Event Tenant System based on GraphQL.
+          Leveraged in-depth expertise in Python, Django, and associated tools to deliver robust and scalable solutions.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Website scraping using Selenium Webdriver and Scrapy.
+          Website scraping using Selenium webdriver and Scrapy also implemented Event Tenant System based on GraphQL with best practice.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
@@ -39,7 +39,20 @@ const Mediusware = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
+          Adapted to both remote and on-site work environments.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
           Leveraged in-depth expertise in Python, Django, and associated tools to deliver robust and scalable solutions.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Demonstrated leadership and mentoring skills by guiding and supporting trainees in acquiring proficiency in Python and
+          Django while assisting them in developing their own projects.
         </li>
       </ul>
     </motion.div>

@@ -1,29 +1,20 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
 import Mediusware from "./works/Mediusware";
-import Repliq from "./works/Repliq";
 import Riseup from "./works/Riseup";
 
 const Experience = () => {
   const [workRiseup, setWorkRiseup] = useState(true);
-  const [workRepliq, setWorkRepliq] = useState(false);
   const [workMediusware, setWorkMediusware] = useState(false);
 
+  // When one of the list items is clicked, the corresponding state is set to true and the other state is set to false.
   const handleRiseup = () => {
     setWorkRiseup(true);
-    setWorkRepliq(false);
-    setWorkMediusware(false);
-  };
-
-  const handleRepliq = () => {
-    setWorkRiseup(false);
-    setWorkRepliq(true);
     setWorkMediusware(false);
   };
 
   const handleMediusware = () => {
     setWorkRiseup(false);
-    setWorkRepliq(false);
     setWorkMediusware(true);
   };
   return (
@@ -44,15 +35,6 @@ const Experience = () => {
             Riseup Labs
           </li>
           <li
-            onClick={handleRepliq}
-            className={`${workRepliq
-              ? "border-l-textGreen text-textGreen"
-              : "border-l-hoverColor text-textDark"
-              } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
-          >
-            Repliq Limited
-          </li>
-          <li
             onClick={handleMediusware}
             className={`${workMediusware
               ? "border-l-textGreen text-textGreen"
@@ -64,7 +46,6 @@ const Experience = () => {
 
         </ul>
         {workRiseup && <Riseup />}
-        {workRepliq && <Repliq />}
         {workMediusware && <Mediusware />}
       </div>
     </section>
