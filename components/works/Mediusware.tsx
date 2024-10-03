@@ -21,19 +21,22 @@ const Mediusware = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Leveraged in-depth expertise in Python, Django, and associated tools to deliver robust and scalable solutions.
+          Leveraged in-depth expertise in Python, Django, and associated tools
+          to deliver robust and scalable solutions.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Website scraping using Selenium webdriver and Scrapy also implemented Event Tenant System based on GraphQL with best practice.
+          Website scraping using Selenium webdriver and Scrapy also implemented
+          Event Tenant System based on GraphQL with best practice.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Ensured code quality, collaborated across teams, and embraced continuous learning.
+          Ensured code quality, collaborated across teams, and embraced
+          continuous learning.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
@@ -45,14 +48,9 @@ const Mediusware = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Leveraged in-depth expertise in Python, Django, and associated tools to deliver robust and scalable solutions.
-        </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textGreen mt-1">
-            <TiArrowForward />
-          </span>
-          Demonstrated leadership and mentoring skills by guiding and supporting trainees in acquiring proficiency in Python and
-          Django while assisting them in developing their own projects.
+          Demonstrated leadership and mentoring skills by guiding and supporting
+          trainees in acquiring proficiency in Python and Django while assisting
+          them in developing their own projects.
         </li>
       </ul>
     </motion.div>

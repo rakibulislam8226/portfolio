@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 const Banner = () => {
   return (
     <section
@@ -30,9 +31,10 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a full-stack developer with 3 years of experience in Python. I have a
-        strong foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using Python and React.
+        I am a full-stack developer with 3 years of experience in Python. I have
+        a strong foundation in back-end and also front-end development and am
+        skilled in creating user-friendly and responsive web applications using
+        Python, React and Vue.
       </motion.p>
       <a href="https://github.com/rakibulislam8226" target="_blank">
         <motion.button

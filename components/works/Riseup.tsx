@@ -28,26 +28,30 @@ const Riseup = () => {
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Collaborating seamlessly with cross-functional teams and engaging closely with front-end and desig teams to achieve project milestones.
+          Collaborating seamlessly with cross-functional teams and engaging
+          closely with front-end and desig teams to achieve project milestones.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Collaborated on developing a comprehensive EMS solution integrated with an IoT.
+          Collaborated on developing a comprehensive EMS solution integrated
+          with an IoT.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Maintained delivering high-quality code and adhering to best practices for software development with Test Driven Development (TDD).
+          Maintained delivering high-quality code and adhering to best practices
+          for software development with Test Driven Development (TDD).
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Developing Django-based back-end systems and RESTful APIs utilizing Django, the Django REST
-          Framework, and PostgreSQL, contributing to the design, development, and testing phases.
+          Developing Django-based back-end systems and RESTful APIs utilizing
+          Django, the Django REST Framework, and PostgreSQL, contributing to the
+          design, development, and testing phases.
         </li>
       </ul>
     </motion.div>

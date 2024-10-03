@@ -116,7 +116,7 @@ const Archive = () => {
                 link="https://github.com/rakibulislam8226/versatile-recruit"
               />
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}

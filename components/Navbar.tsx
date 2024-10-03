@@ -19,7 +19,7 @@ const Navbar = () => {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     setShow(false);
-    const {href} = e.currentTarget;
+    const { href } = e.currentTarget;
     const targetId = href.replace(/.*\#/, "");
     const elem = document.getElementById(targetId);
     elem?.scrollIntoView({
@@ -213,7 +213,7 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.4, ease: "easeIn" }}
                     >
-                      Project
+                      Projects
                     </motion.li>
                   </Link>
                   <Link
@@ -240,7 +240,7 @@ const Navbar = () => {
                     Resume
                   </motion.button>
                 </a>
-                <div className="flex gap-4">
+                <div className="flex gap-2">
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
@@ -292,7 +292,7 @@ const Navbar = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.2, ease: "easeIn" }}
-                className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
+                className="text-xs tracking-widest text-textGreen text-center mt-4"
                 href="mailto:rakibulislam8226@gmail.com"
               >
                 <p>rakibulislam8226@gmail.com</p>

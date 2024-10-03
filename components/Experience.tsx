@@ -27,23 +27,24 @@ const Experience = () => {
         <ul className="md:w-80 flex flex-col">
           <li
             onClick={handleRiseup}
-            className={`${workRiseup
-              ? "border-l-textGreen text-textGreen"
-              : "border-l-hoverColor text-textDark"
-              } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            className={`${
+              workRiseup
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Riseup Labs
           </li>
           <li
             onClick={handleMediusware}
-            className={`${workMediusware
-              ? "border-l-textGreen text-textGreen"
-              : "border-l-hoverColor text-textDark"
-              } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+            className={`${
+              workMediusware
+                ? "border-l-textGreen text-textGreen"
+                : "border-l-hoverColor text-textDark"
+            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Mediusware
           </li>
-
         </ul>
         {workRiseup && <Riseup />}
         {workMediusware && <Mediusware />}

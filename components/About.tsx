@@ -2,8 +2,20 @@ import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
-import { FaFlask, FaPython, FaReact, FaRedditSquare } from "react-icons/fa";
-import { TbBrandDjango, TbBrandGraphql, TbBrandTailwind, TbFlask, TbFlask2 } from "react-icons/tb";
+import {
+  FaFlask,
+  FaPython,
+  FaReact,
+  FaRedditSquare,
+  FaVuejs,
+} from "react-icons/fa";
+import {
+  TbBrandDjango,
+  TbBrandGraphql,
+  TbBrandTailwind,
+  TbFlask,
+  TbFlask2,
+} from "react-icons/tb";
 import { SlChart } from "react-icons/sl";
 
 const About = () => {
@@ -16,29 +28,37 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is <span className="text-textGreen">Rakibul Islam </span> and I enjoy creating things that
-            live on the internet.
+            Hello! My name is{" "}
+            <span className="text-textGreen">Rakibul Islam </span> and I enjoy
+            creating things that live on the internet.
           </p>
           <p>
-            I have solid background in {" "}
-            <span className="text-textGreen">
-              Computer Science, {" "}
+            I have solid background in{" "}
+            <span className="text-textGreen">Computer Science, </span>I approach
+            every challenge as an opportunity to learn and grow. I am dedicated
+            to <span className="text-textGreen">solving problems </span>
+            and continuously expanding my knowledge, prioritizing a lifelong
+            learning mindset in everything I do.
+          </p>
+          <p>
+            As a Software Engineer,
+            <span className="text-bold">
+              I firmly believe in the power of collaboration and teamwork to
+              create innovative solutions.{" "}
             </span>
-            I approach every challenge as an opportunity to learn and grow. I am dedicated to <span className="text-textGreen">solving problems </span> 
-            and continuously expanding my knowledge, prioritizing a lifelong learning mindset in everything I do.
+            I thrive in environments where I can apply my skills to solve
+            complex problems and make a positive impact.
           </p>
+          <span className="text-textGreen">
+            I thoroughly enjoy sharing my knowledge and engaging in insightful
+            discussions with like-minded individuals. Lets exchange ideas and
+            learn from each other!
+          </span>
           <p>
-            As a Software Engineer, 
-            <span className="text-bold">I firmly believe in the power of collaboration and teamwork to create innovative solutions. </span> 
-            I thrive in environments where I can apply my skills to solve complex problems and make a positive impact.
-          </p>
-            <span className="text-textGreen">
-              I thoroughly enjoy sharing my knowledge and engaging in insightful discussions with like-minded individuals. 
-              Lets exchange ideas and learn from each other!
-            </span>
-          <p>
-            Programming languages and frameworks are simply tools in my arsenal. The true challenge lies in critical thinking and arriving at elegant solutions. 
-            Lets tackle problems together and make a difference in the world of technology.
+            Programming languages and frameworks are simply tools in my arsenal.
+            The true challenge lies in critical thinking and arriving at elegant
+            solutions. Lets tackle problems together and make a difference in
+            the world of technology.
           </p>
 
           {/* skills sections  */}
@@ -62,17 +82,31 @@ const About = () => {
               </span>
               Django
             </li>
+
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <TbBrandTailwind />
+                <FaVuejs />
               </span>
-              Tailwind CSS
+              Vue.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Django REST Framework
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <TbBrandTailwind />
+              </span>
+              Tailwind CSS
+            </li>
+
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Flask
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
@@ -84,15 +118,9 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Flask
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
               FastAPI
             </li>
-            
+
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
@@ -119,15 +147,15 @@ const About = () => {
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <AiFillThunderbolt />
+                <SlChart />
               </span>
-                Test-Driven Development
+              Chart.js
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
-                <SlChart />
+                <AiFillThunderbolt />
               </span>
-                Chart.js
+              Test-Driven Development
             </li>
           </ul>
         </div>
