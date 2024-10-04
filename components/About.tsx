@@ -1,5 +1,7 @@
-import { profileImg } from "@/public/assets";
+import { profileImg1, profileImg2 } from "@/public/assets";
 import Image from "next/image";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
 import {
@@ -162,16 +164,38 @@ const About = () => {
 
         {/* profile image section  */}
         <div className="w-full lgl:w-1/3 h-80 relative group">
-          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg ">
+          {/* Carousel Container */}
+          <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
-              <Image
-                className="rounded-lg h-full object-cover"
-                src={profileImg}
-                alt="profileImg"
-              />
+              <Carousel
+                showThumbs={false}
+                autoPlay
+                infiniteLoop
+                interval={3000}
+                showStatus={false}
+                className="h-full"
+              >
+                <div className="h-80">
+                  <img
+                    className="rounded-lg h-full object-cover"
+                    src={profileImg1.src}
+                    alt="Profile"
+                  />
+                </div>
+                <div className="h-80">
+                  <img
+                    className="rounded-lg h-full object-cover"
+                    src={profileImg2.src}
+                    alt="Image 2"
+                  />
+                </div>
+              </Carousel>
+              {/* Overlay for hover effect */}
               <div className="hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </div>
+
+          {/* Border with hover effect */}
           <div className="hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div>
         </div>
       </div>

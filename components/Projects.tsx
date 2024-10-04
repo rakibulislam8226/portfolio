@@ -31,7 +31,7 @@ const Projects = () => {
                 src={beeboxImg}
                 alt="beeboxImg"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-4 lg:gap-6 justify-between items-start lg:items-end text-left lg:text-right xl:-ml-16 z-10">
@@ -95,10 +95,10 @@ const Projects = () => {
                 src={dsiImg}
                 alt="dsiImg"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-4 lg:gap-6 justify-between items-start lg:items-end text-left lg:text-right z-10 xl:-mr-16">
+          <div className="w-full xl:w-1/2 flex flex-col gap-4 lg:gap-6 justify-between items-start text-left z-10 xl:-mr-16">
             <div>
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
@@ -158,7 +158,7 @@ const Projects = () => {
                 src={SupplersImg}
                 alt="Supplers"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-4 lg:gap-6 justify-between items-start lg:items-end text-left lg:text-right xl:-ml-16 z-10">
@@ -208,7 +208,7 @@ const Projects = () => {
         </div>
         {/* ============ project Three End here ================== */}
         {/* ============ project Four Start here ================ */}
-        <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://triplechoice.com/"
@@ -220,10 +220,10 @@ const Projects = () => {
                 src={tripleChoiceImg}
                 alt="tripleChoiceImg"
               />
-              <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+              <div className="absolute w-full h-full rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-4 lg:gap-6 justify-between items-start lg:items-end text-left lg:text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-4 lg:gap-6 justify-between items-start text-left z-10 xl:-mr-16">
             <div>
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
@@ -264,7 +264,7 @@ const Projects = () => {
               </a>
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://triplechoice.com/"
+                href="https://triplechoice.com//"
                 target="_blank"
               >
                 <RxOpenInNewWindow />
