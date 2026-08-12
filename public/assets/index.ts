@@ -6,8 +6,12 @@ import beeboxImg from "./images/beebox.png";
 import nexiventImg from "./images/dsi.png";
 import tripleChoiceImg from "./images/tripleChoice.png";
 import SupplersImg from "./images/supplers.png";
+import aiExcellenceAward from "./images/ai_excellence_award.webp";
+import bestEmployeeAward from "./images/best_employee_award.webp";
 
 export {
+  aiExcellenceAward,
+  bestEmployeeAward,
   logo,
   profileImg1,
   profileImg2,
