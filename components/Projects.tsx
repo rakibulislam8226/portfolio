@@ -1,12 +1,10 @@
 import {
   beeboxImg,
-  dsiImg,
+  nexiventImg,
   SupplersImg,
   tripleChoiceImg,
 } from "@/public/assets";
 import Image from "next/image";
-import { AiOutlineYoutube } from "react-icons/ai";
-import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
 import { RxOpenInNewWindow } from "react-icons/rx";
 
@@ -29,7 +27,7 @@ const Projects = () => {
               <Image
                 className="w-full h-auto object-cover"
                 src={beeboxImg}
-                alt="beeboxImg"
+                alt="BeeBox parcel tracking dashboard"
               />
               <div className="absolute w-full h-full rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -42,12 +40,13 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">BeeBox</h3>
             </div>
             <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              Beebox for{" "}
-              <span className="text-textGreen">parcel tracking </span>
-              made easy! Users can deliver their parcels and
-              <span className="text-textGreen"> track their parcel </span> by
-              entering the tracking number. They can also view details and the
-              location of their parcel.
+              A courier and{" "}
+              <span className="text-textGreen">parcel tracking</span> service.
+              Senders book a delivery, and anyone holding the tracking number can
+              follow the parcel&apos;s{" "}
+              <span className="text-textGreen">status and location</span> as it
+              moves through the network. I built the REST API, the state machine
+              behind each shipment, and the tracking timeline.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex flex-wrap gap-2 md:gap-5 justify-start lg:justify-between text-textDark">
               <li>Python</li>
@@ -57,20 +56,6 @@ const Projects = () => {
               <li>Tailwind CSS</li>
             </ul>
             <div className="text-2xl flex gap-4">
-              <a
-                className="hover:text-textGreen duration-300"
-                href="#"
-                target="_blank"
-              >
-                <TbBrandGithub />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="#"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://www.beeboxbd.com/"
@@ -92,8 +77,8 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-auto object-cover"
-                src={dsiImg}
-                alt="dsiImg"
+                src={nexiventImg}
+                alt="Nexivent event management platform"
               />
               <div className="absolute w-full h-full rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -103,37 +88,24 @@ const Projects = () => {
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">DSI</h3>
+              <h3 className="text-2xl font-bold">Nexivent</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              A full-featured{" "}
-              <span className="text-textGreen">event management platform</span>,
-              where clients can create and manage their events. Admins and users
-              each have their own dashboards.
+              A <span className="text-textGreen">multi-tenant</span> event
+              management platform where every organization gets its own domain
+              and its own database. I designed the tenancy layer and the GraphQL
+              API so teams can host and run their events on a shared codebase
+              without ever sharing data.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex flex-wrap gap-2 md:gap-5 justify-start lg:justify-between text-textDark">
               <li>Django</li>
               <li>GraphQL</li>
-              <li>Django REST Framework</li>
-              <li>Multi-tenant</li>
+              <li>django-tenants</li>
               <li>MySQL</li>
+              <li>Firebase</li>
               <li>React</li>
             </ul>
             <div className="text-2xl flex gap-4">
-              <a
-                className="hover:text-textGreen duration-300"
-                href="#"
-                target="_blank"
-              >
-                <TbBrandGithub />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="#"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
               <a
                 className="hover:text-textGreen duration-300"
                 href="http://nexivent.com/"
@@ -156,7 +128,7 @@ const Projects = () => {
               <Image
                 className="w-full h-auto object-cover"
                 src={SupplersImg}
-                alt="Supplers"
+                alt="Supplers furniture marketplace"
               />
               <div className="absolute w-full h-full rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -169,10 +141,11 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Supplers</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              A global furniture and interior design platform where clients can
-              obtain
-              <span className="text-textGreen"> membership </span> and make
-              purchases using <span className="text-textGreen">Stripe</span>.
+              A global furniture and interior design marketplace. Clients buy a{" "}
+              <span className="text-textGreen">membership</span> and order
+              through it &mdash; I handled the{" "}
+              <span className="text-textGreen">Stripe</span> billing flow,
+              subscription webhooks, and Redis caching for the catalogue.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex flex-wrap gap-2 md:gap-5 justify-start lg:justify-between text-textDark">
               <li>REST Framework</li>
@@ -182,20 +155,6 @@ const Projects = () => {
               <li>Tailwind CSS</li>
             </ul>
             <div className="text-2xl flex gap-4">
-              <a
-                className="hover:text-textGreen duration-300"
-                href="#"
-                target="_blank"
-              >
-                <TbBrandGithub />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="#"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
               <a
                 className="hover:text-textGreen duration-300"
                 href="https://www.supplers.com/"
@@ -218,7 +177,7 @@ const Projects = () => {
               <Image
                 className="w-full h-auto object-cover"
                 src={tripleChoiceImg}
-                alt="tripleChoiceImg"
+                alt="TripleChoice internal product dashboard"
               />
               <div className="absolute w-full h-full rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
@@ -231,14 +190,11 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">TripleChoice</h3>
             </div>
             <p className="text-sm md:text-base bg-[#112240] p-2 md:p-6 rounded-md">
-              This is{" "}
-              <span className="text-textGreen">
-                {" "}
-                a project details platform{" "}
-              </span>{" "}
-              where an employee of an organization can view their own products
-              with information for their clients. Its mainly managed for
-              internal products by checking the products health.
+              An internal{" "}
+              <span className="text-textGreen">product health dashboard</span>.
+              Staff can look up any product the company ships, see its current
+              status and the details their clients ask about, and catch issues
+              before a customer reports them.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex flex-wrap gap-2 md:gap-5 justify-start lg:justify-between text-textDark">
               <li>Django</li>
@@ -250,21 +206,7 @@ const Projects = () => {
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="#"
-                target="_blank"
-              >
-                <TbBrandGithub />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="#"
-                target="_blank"
-              >
-                <AiOutlineYoutube />
-              </a>
-              <a
-                className="hover:text-textGreen duration-300"
-                href="https://triplechoice.com//"
+                href="https://triplechoice.com/"
                 target="_blank"
               >
                 <RxOpenInNewWindow />

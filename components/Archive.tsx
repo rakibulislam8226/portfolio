@@ -12,10 +12,26 @@ const Archive = () => {
           Other Noteworthy Projects
         </h2>
         <p className="text-sm font-titleFont text-textGreen">
-          View the archive
+          Products I shipped, and things I built to learn
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
+        <ArchiveCard
+          title="Trainr"
+          des="A SaaS gym management platform. I implemented Stripe billing, personalized AI training summaries via the OpenAI API, and every background process behind the admin dashboard and mobile app."
+          listItem={["Django REST", "Next.js", "Stripe", "OpenAI", "Redis"]}
+        />
+        <ArchiveCard
+          title="CardiCheck"
+          des="A hospital system for patient care and administration. I built appointment scheduling, direct prescription delivery, in-app messaging, and video consultations."
+          listItem={["Django REST", "Celery", "React", "Redis"]}
+        />
+        <ArchiveCard
+          title="nest-debug-panel"
+          des="An open-source npm package that drops a debugging panel into Nest.js applications, giving developers request and dependency visibility without extra wiring."
+          listItem={["Nest.js", "TypeScript", "npm"]}
+          link="https://www.npmjs.com/package/nest-debug-panel"
+        />
         <ArchiveCard
           title="Versatile INN"
           des="Versatile INN is a microservice-based restaurant management system. It simplifies the management of a parent restaurant, and its child restaurants. "
@@ -57,6 +73,7 @@ const Archive = () => {
         {showMore && (
           <>
             <motion.div
+              className="h-full"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.1 }}
@@ -69,6 +86,7 @@ const Archive = () => {
               />
             </motion.div>
             <motion.div
+              className="h-full"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
@@ -81,6 +99,7 @@ const Archive = () => {
               />
             </motion.div>
             <motion.div
+              className="h-full"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
@@ -93,6 +112,7 @@ const Archive = () => {
               />
             </motion.div>
             <motion.div
+              className="h-full"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
@@ -105,6 +125,7 @@ const Archive = () => {
               />
             </motion.div>
             <motion.div
+              className="h-full"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.4 }}
@@ -118,6 +139,7 @@ const Archive = () => {
             </motion.div>
 
             <motion.div
+              className="h-full"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.6 }}

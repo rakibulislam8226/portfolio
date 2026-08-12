@@ -14,44 +14,59 @@ const Riseup = () => {
         <span className="text-textGreen tracking-wide">@Riseup Labs</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Feb 2024 - Present
+        Feb 2024 - Present &middot; Uttara, Dhaka
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code for a diverse array of
-          client and internal projects.
+          Built an AI application on top of open-source models using LangChain
+          and RAG, from retrieval pipeline to production endpoints.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Collaborating seamlessly with cross-functional teams and engaging
-          closely with front-end and desig teams to achieve project milestones.
+          Designed the system architecture and databases behind several products
+          &mdash; including a ride-sharing platform and multi-tenant SaaS
+          applications &mdash; with performance as a first-class constraint.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Collaborated on developing a comprehensive EMS solution integrated
-          with an IoT.
+          Architected and deployed scalable cloud infrastructure, automating
+          CI/CD with Jenkins and GitHub Actions for reliable, low-downtime
+          releases.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Maintained delivering high-quality code and adhering to best practices
-          for software development with Test Driven Development (TDD).
+          Owned the full DevOps lifecycle: containerization, monitoring, and
+          ongoing performance optimization.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Developing Django-based back-end systems and RESTful APIs utilizing
-          Django, the Django REST Framework, and PostgreSQL, contributing to the
-          design, development, and testing phases.
+          Delivered Stripe payments, AI-powered summaries, and the core
+          background processing for a SaaS platform.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Wrote high-quality, reusable code through Test-Driven Development
+          while designing for low latency and high availability.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Collaborated on a comprehensive ERP solution integrated with IoT
+          devices.
         </li>
       </ul>
     </motion.div>
